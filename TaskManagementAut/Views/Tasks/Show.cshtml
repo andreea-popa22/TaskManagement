@@ -1,0 +1,115 @@
+﻿@model TaskManagement.Models.Task
+
+<p style="font-size:14px; margin-top: 1rem; margin-left: 20rem; margin-bottom: -1rem;">@ViewBag.message</p>
+<div class="container big-c div-tasks">
+    <div class="row">
+        <div class="col-md-6">
+
+            <div class="panel panel-default containerTasksAfisare">
+                <div class="panel-heading comms-heading">@Model.TaskTitle</div>
+                <div class="panel-body comms-body">
+                    <div class="info-comm">
+                        <p><b>Description: </b><span>@Model.TaskDescription</span></p>
+
+                        <p><b>Starting Date: </b> <span>@Model.StartDate</span></p>
+
+                        <p><b>Ending Date: </b><span>@Model.EndDate</span></p>
+
+                        <p><b>Member in charge: </b><span>@ViewBag.NameofUser</span></p>
+
+                        <p><b>Status: </b> <span>@Model.Status</span></p>
+
+                        <br />
+                        @if (ViewBag.afisareButoane == true || ViewBag.esteAdmin)
+                        {
+                            <div style="display: inline-block; float : center; margin-right: 15px; margin-left: 0rem;">
+                                <a class="btn btn-primary" href="/Tasks/Edit/@Model.TaskId">Edit task</a>
+                            </div>
+                            <div style="display: inline-block; float : center; color: red;">
+                                <form method="post" action="/Tasks/Delete/@Model.TaskId">
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <button class="btn btn-danger" style="border: none; " type="submit">Delete task</button>
+                                </form>
+                            </div>
+                        }
+                    </div>
+
+
+                    @if (ViewBag.schimbaStatus == true)
+                    {
+
+                        @*<form method="post" action="/Tasks/Edit/@Model.TaskId">
+                    @Html.HttpMethodOverride(HttpVerbs.Put)
+                        @Html.Label("Status", "Status")
+                        <select name="Status">
+                            <option value="notStarted">Not Started</option>
+                            <option value="inProgress">In Progress</option>
+                            <option value="completed">Completed</option>
+                        </select>
+                        @Html.ValidationMessage("Status", "", new { @class = "text-danger" })
+                        <br /><br />
+                        <button class="btn btn-success" style="border: none;" type="submit">Change Status</button>
+                    </form>*@
+
+                        <a class="btn btn-success pull-left" href="/Tasks/Edit/@Model.TaskId">Change Status</a>
+                    }
+
+                </div>
+            </div>
+            <a class="btn btn-primary" href="/Projects/Show/@Model.ProjectId" style="margin-top: 1rem;">Back to Project</a>
+        </div>
+        <div class="col-md-6">
+            <div class="container cont-divs">
+                <p>Comments</p>
+                @foreach (var comm in Model.Comments)
+                {
+
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+                            <p>@comm.Content</p>
+                            <p>@comm.Date</p>
+                        </div>
+                        <div class="panel-footer">
+                            <i class="glyphicon glyphicon-user"></i> <i>added by</i>
+                            <strong> @comm.User.UserName </strong>
+                            @if (comm.UserId == ViewBag.utilizatorCurent || ViewBag.esteAdmin)
+                            {
+
+                                <a class="glyphicon glyphicon-pencil" href="/Comments/Edit/@comm.CommentId" style="margin-left:2rem;"></a>
+                                <div style="display: inline-block;  color: red;">
+                                    <form method="post" action="/Comments/Delete/@comm.CommentId">
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button class="glyphicon glyphicon-trash" style="border: none; background: transparent" type="submit"></button>
+                                    </form>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+
+                @if (1 == 1)
+                {
+                    <form method="post" action="/Tasks/Show/@Model.TaskId">
+                        <hr />
+                        <input type="hidden" name="TaskId" value="@Model.TaskId" />
+                        <p id="titluAdaugaComm">Add a comment</p>
+
+                        @Html.TextBox("Content", null, new { @class = "form-control" })
+                        @Html.ValidationMessage("Content", "", new { @class = "text-danger" })
+                        <br />
+
+                        <button class="btn btn-success " type="submit">Add comment</button>
+
+                    </form>
+
+                }
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<br /><br /><br /><br /><br />

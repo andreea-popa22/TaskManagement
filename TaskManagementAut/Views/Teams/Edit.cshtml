@@ -1,0 +1,34 @@
+﻿@model TaskManagement.Models.Team
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default panel-team">
+                <div class="panel-heading">Edit team</div>
+                <div class="panel-body">
+
+                    @using (Html.BeginForm(actionName: "Edit", controllerName: "Teams"))
+                    {
+                        @Html.HttpMethodOverride(HttpVerbs.Put)
+
+                        @Html.HiddenFor(m => m.TeamId)
+
+                        @Html.Label("TeamName", "Team Name")
+                        <br />
+                        @Html.Editor("TeamName")
+                        @Html.ValidationMessageFor(m => m.TeamName, "", new { @class = "text-danger" })
+                        <br /><br />
+                        <button class="btn btn-success" type="submit">Edit team</button>
+                    }
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-6">
+            <img src="../../Content/images/people.svg" style="margin-left: -2rem; margin-bottom: -1rem; margin-top: -6rem; position: fixed;" alt="People in a team" width="580" height="480">
+        </div>
+
+    </div>
+    <a class="btn btn-primary" href="/Teams/Show/@Model.TeamId" style="margin-top: 6rem; margin-left: 13rem;">Back to Team Details</a>
+</div>

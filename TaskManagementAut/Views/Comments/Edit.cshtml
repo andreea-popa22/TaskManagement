@@ -1,0 +1,39 @@
+﻿@model TaskManagement.Models.Comment
+
+<div class="container cont-comm">
+    <h2 class="basic-heading" style="margin-bottom: 2rem; margin-top:6rem;">Edit the comment</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default comm-panel">
+
+                @using (Html.BeginForm(actionName: "Edit", controllerName: "Comments"))
+                {
+                    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+                    if (ViewBag.esteAdmin == true || ViewBag.esteOrganizator == true || ViewBag.esteMembru == true)
+                    {
+               
+                        @Html.HiddenFor(m => m.CommentId)
+                        @Html.HiddenFor(m => m.TaskId)
+
+                        @Html.Label("Content", "Content")
+                        <br />
+                        @Html.Editor("Content")
+                        @*@Html.ValidationMessageFor(m => m.Content, "", new { @class = "text-danger" })
+
+
+                @Html.TextBox("Content", null, new { @class = "form-control" })*@
+                        @Html.ValidationMessage("Content", "", new { @class = "text-danger" })
+                        <br /><br />
+                        <button class="btn btn-sm btn-success" type="submit">Edit comment</button>
+                    }
+                }
+            </div>
+            <a class="btn btn-primary" href="/Tasks/Show/@Model.TaskId" style="margin-top: 2rem; ">Back to Task</a>
+        </div>
+        <div class="col-md-6">
+            <img src="../../Content/images/speaking.png" alt="People speaking" width="500" height="300" style="margin-top: -2rem;">
+            
+        </div>
+    </div>
+</div>

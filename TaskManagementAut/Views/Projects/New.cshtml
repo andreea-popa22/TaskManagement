@@ -1,0 +1,57 @@
+﻿@model TaskManagement.Models.Project
+
+
+<h2 class="heading-font" style="margin-left: 14rem; margin-bottom: 2rem;">Add a new project</h2>
+<div class="container cont-new">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default radius-div edit-div">
+                @using (Html.BeginForm(actionName: "New", controllerName: "Projects"))
+                {
+                    <label>Select a Team</label>
+                    @Html.DropDownListFor(m => m.TeamId, new SelectList(Model.Teamm, "Value", "Text"),
+                        "Selectati echipa", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.TeamId, "", new { @class = "text-danger" })
+                    <br />
+                    <strong>...or add a new team</strong>
+
+                    <br />
+                    <a class="btn btn-primary" href="/Teams/New" role="button">Add team</a>
+                    <br /><hr />
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+                    @Html.Label("ProjectTitle", "Title")
+                    <br />
+                    @Html.TextBox("ProjectTitle", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.ProjectTitle, "", new { @class = "text-danger" })
+                    <br /><br />
+
+                    @Html.Label("ProjectDescription", "Description")
+                    <br />
+                    @Html.TextArea("ProjectDescription", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.ProjectDescription, "", new { @class = "text-danger" })
+                    <br /><br />
+
+                    <input type="hidden" name="ProjectDate" value="@DateTime.Now" />
+                    @Html.ValidationMessageFor(m => m.ProjectDate, "", new { @class = "text-danger" })
+
+
+                    @*<label>Selectati membrii echipei</label>
+                    @Html.DropDownListFor(m => m.TeamId, new SelectList(Model.Teamm, "Value", "Text"),
+                        "Selectati echipa", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.TeamId, "", new { @class = "text-danger" })
+                    <br /><br />*@
+
+                    <button class="btn btn-sm btn-success" type="submit">Add project</button>
+                }
+                
+            </div>
+            <br /><br /><br /><br />
+        </div>
+
+        <div class="col-md-6">
+            <img src="../../Content/images/desk.png" style="margin-left: 2rem; margin-top: 6rem;" alt="Woman standing at a desk" width="380" height="300">
+            <a class="btn btn-primary" href="/Projects" style="margin-left: 27%;">Back to Projects</a>
+        </div>
+    </div>
+</div>

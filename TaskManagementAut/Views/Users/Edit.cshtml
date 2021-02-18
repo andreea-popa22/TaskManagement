@@ -1,0 +1,48 @@
+﻿@model TaskManagementAut.Models.ApplicationUser
+
+@{
+    /**/
+
+    ViewBag.Title = "Edit users";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel" style="margin-left:10rem; margin-top: 8rem;">
+                <div class="panel-heading">@ViewBag.Title</div>
+                <div class="panel-body body-color">
+                    @using (Html.BeginForm(actionName: "Edit", controllerName: "Users", routeValues: new { id = @Model.Id }))
+                    {
+                        @Html.HttpMethodOverride(HttpVerbs.Put)
+                        <br />
+                        <i class="glyphicon glyphicon-user"></i>
+                        @Html.Label("UserName", "User Name", new { @class = "" })
+                        <br />
+                        @Html.EditorFor(m => m.UserName)
+                        <br /><br />
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        @Html.Label("Email", "Email", new { @class = "" })
+                        <br />
+                        @Html.EditorFor(m => m.Email)
+                        <br /><br />
+
+                        <i class="glyphicon glyphicon-th-list"></i>
+                        <label>Select the role</label>
+                        @Html.DropDownList("newRole", new SelectList(Model.AllRoles, "Value", "Text",
+                       ViewBag.userRole), null, new { @class = "form-control" })
+                        <br />
+                        <button class="btn btn-sm btn-success" type="submit">
+                            Edit user's info
+                        </button>
+                        <a class="btn btn-primary" href="/Users" style="font-size: 12px;">Back to Users</a>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="../../Content/images/human.svg" style="margin-left:-20%; margin-bottom: -8rem; margin-top: 6rem;" alt="Teamwork" width="670" height="400">
+        </div>
+    </div>
+</div>

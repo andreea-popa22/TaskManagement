@@ -1,0 +1,129 @@
+﻿@model TaskManagement.Models.Team
+
+<h3>@ViewBag.message</h3>
+<div class="container team-cont-big">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="panel panel-default team-panel">
+
+                <div class="panel-heading">@Model.TeamName</div>
+                <div class="panel-body">
+
+                    @if (ViewBag.esteAdmin)
+                    {
+
+                        <a class="btn btn-primary  btn btn-sm" style="float:left; margin-left: 2rem;" href="/Teams/Edit/@Model.TeamId">Edit team</a>
+
+                        <form method="post" action="/Teams/Delete/@Model.TeamId">
+                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                            <button class="btn btn-danger  btn btn-sm" type="submit" style="float:left; margin-left: 12rem;">Delete team</button>
+                        </form>
+                    }
+
+                    @if (ViewBag.afisareTaskuri == true || ViewBag.esteAdmin)
+                    {
+                        <br /><br /><br />
+                        <label style="margin-left: 3rem;">Members:</label>
+
+                        foreach (var member in Model.Members)
+                        {
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="col-md-8" style="display: inline-block; ">
+
+                                            @member.User.Email
+
+                                            @if (ViewBag.afisareButoane == true || ViewBag.esteAdmin)
+                                            {
+                                                <div class="delete-button" style="display: inline-block; float:left; margin-left: 26rem;margin-bottom:-7rem;">
+                                                    <form method="post" action="/Members/Delete/@member.MemberId">
+                                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                                        <button class="glyphicon glyphicon-trash" style="border: none; color: red; background: transparent; margin-top:-6rem" type="submit"></button>
+                                                    </form>
+                                                </div>
+
+                                            }
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    @if (Model.UserId == ViewBag.utilizatorCurent || ViewBag.esteAdmin)
+                    {
+                        <form method="post" action="/Teams/AfisareMembrii/@Model.TeamId">
+                            <div class="panel-body">
+                                <input type="hidden" name="TeamId" value="@Model.TeamId" />
+                                @*@Html.HiddenFor(m => m.ProjectDate)
+                                    @Html.HiddenFor(m => m.ProjectDescription)
+
+                                    @Html.HiddenFor(m => m.ProjectTitle)*@
+                                <br />
+                                <div class="addMember">
+                                    <label>Add a new member:</label>
+
+                                    @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.ListOfUsers, "Value", "Text"),
+                                     "Selecteaza membru", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.UserId, "", new { @class = "text-danger" })
+                                    <br />
+                                    <button class="btn btn-secondary add-mem-btn" type="submit">Add member</button>
+                                    <a class="btn btn-primary" href="/Teams" style="margin-left: 2rem;">Back to Teams</a>
+                                </div>
+
+                            </div>
+                        </form>
+                    }
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-8 col-tasks">
+            <div class="row">
+                <img src="../../Content/images/teamwork.jpg" style="margin-left: 15rem; margin-top: -2rem;" alt="Teamwork" width="500" height="220" />
+
+            </div>
+            <label style="margin-left: 50%;margin-top: -9rem;">Tasks</label>
+            <br /><br />
+            <div class="row">
+                @if (ViewBag.afisareTaskuri == true || ViewBag.esteAdmin)
+                {
+                    foreach (var t in ViewBag.ListOfTasks)
+                    {
+                        <div class="col-md-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">@t.TaskTitle</div>
+                                <div class="panel panel-footer">
+                                    <a class="btn btn-success  btn btn-sm" style="margin-left:1rem; margin-bottom: 1rem;" href="/Tasks/Show/@t.TaskId">See details about the task</a>
+
+                                    @if (ViewBag.afisareButoane == true || ViewBag.esteAdmin)
+                                    {
+                                        <a class="btn btn-info  btn btn-sm" href="/Tasks/Edit/@t.TaskId" style="margin-left:5rem;">Edit</a>
+                                        <div style="display: inline-block;  color: red;">
+                                            <form method="post" action="/Tasks/Delete/@t.TaskId">
+                                                @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                                <button class="btn btn-danger btn btn-sm" style="border: none; " type="submit">Delete</button>
+                                            </form>
+                                        </div>
+                                    }
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    
+</div>
+<br /><br /><br /><br />
+
+
+
+
+

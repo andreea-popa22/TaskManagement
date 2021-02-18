@@ -1,0 +1,200 @@
+﻿@model TaskManagement.Models.Project
+
+<h3>@ViewBag.message</h3>
+<div class="container">
+    <a class="btn btn-primary" href="/Projects" style="margin-bottom: 1rem;">Back to Projects</a>
+    <div class="row">
+
+        <div class="col-md-8">
+            <div class="panel panel-default radius-div">
+                @Html.Partial("ProjectInfo", Model)
+                @if (ViewBag.afisareButoane == true || ViewBag.afisareTaskuri == true || ViewBag.esteAdmin == true)
+                {
+                    <label id="labelMembers">Members:</label>
+                    foreach (var member in Model.Team.Members)
+                    {
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="col-md-8 font-sizer-mem" style="display: inline-block">
+                                        <div class="glyphicon glyphicon-user myglyph"><div class="my-user">@member.User.Email</div></div>
+                                        <span>
+                                            @if (Model.UserId == ViewBag.utilizatorCurent || ViewBag.esteAdmin)
+                                            {
+                                                <div style="display: inline-block; float:left; margin-left:23rem;" class="delete-button">
+                                                    <form method="post" action="/Members/Delete/@member.MemberId">
+                                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                                        <button class="glyphicon glyphicon-trash" style="border: none; color: red; background: transparent" type="submit"></button>
+                                                    </form>
+                                                </div>
+
+                                            }
+                                        </span>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+
+                @if (Model.UserId == ViewBag.utilizatorCurent || ViewBag.esteAdmin )
+                {
+
+                    <form method="post" action="/Projects/AfisareMembrii/@Model.ProjectId">
+                        <div class="panel-body">
+
+                            <input type="hidden" name="TeamId" value="@Model.TeamId" />
+
+                            @*@Html.HiddenFor(m => m.ProjectDate)
+                                @Html.HiddenFor(m => m.ProjectDescription)
+
+                                @Html.HiddenFor(m => m.ProjectTitle)*@
+                            <br />
+                            <div class="addMember">
+                                <label>Add a new member:</label>
+
+                                @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.ListOfUsers, "Value", "Text"),
+                                        "Selecteaza membru", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.UserId, "", new { @class = "text-danger" })
+                                <br />
+                                <button class="btn btn-secondary add-mem-btn" type="submit">Add member</button>
+                            </div>
+
+                        </div>
+                    </form>
+                    <br /><br />
+                    <div class="panel-footer">
+                        <a class="btn btn-success pull-left" href="/Projects/Edit/@Model.ProjectId">Edit project</a>
+
+                        @using (Html.BeginForm(actionName: "Delete", controllerName: "Projects", method: FormMethod.Post, routeValues: new { id = @Model.ProjectId }))
+                        {
+                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                            <button class="btn btn-danger pull-right" type="submit">Delete this project</button>
+                        }
+                        <div class="clearfix"></div>
+
+
+                    </div>
+
+                }
+
+
+            </div>
+            @*@Html.DropDownListFor(model => model.Status, new List<SelectListItem>
+                { new SelectListItem{Text="Active", Value="True",Selected=true},
+                  new SelectListItem{Text="Deactive", Value="False"}},"Select One")*@
+
+        </div>
+        <div class="col-md-4">
+
+            @if (ViewBag.afisareButoane == true && Model.UserId == ViewBag.utilizatorCurent || ViewBag.esteAdmin)
+            {
+                <div class="panel font-div">
+                    <form method="post" action="/Projects/Show/@Model.ProjectId">
+                        <div class="panel-body containerTasks">
+                            <input type="hidden" name="ProjectId" value="@Model.ProjectId" />
+                            <p id="titluAdaugaTask">Add a new task</p>
+                            <hr />
+                            @Html.Label("TaskTitle", "Title")
+                            <br />
+                            @Html.TextBox("TaskTitle", null, new { @class = "form-control" })
+                            @Html.ValidationMessage("TaskTitle", "", new { @class = "text-danger" })
+                            <br /><br />
+
+                            @Html.Label("TaskDescription", "Task Description")
+                            <br />
+                            @Html.TextArea("TaskDescription", null, new { @class = "form-control" })
+                            @Html.ValidationMessage("TaskDescription", "", new { @class = "text-danger" })
+                            <br /><br />
+                            @*
+                                @Html.Label("Status", "Status task")
+                                <br />
+                                @Html.DropDownListFor(model => model.Status, new List<SelectListItem>
+                                { new SelectListItem{Text="Not Started", Value="True", Selected=true},
+                                  new SelectListItem{Text="In progress", Value="False" },
+                                  new SelectListItem{Text="Completed", Value="False"}},"Select One")
+                            *@
+                            @Html.Label("Status", "Status")
+                            <select name="Status">
+                                <option value="notStarted">Not Started</option>
+                                <option value="inProgress">In Progress</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                            @Html.ValidationMessage("Status", "", new { @class = "text-danger" })
+                            <br /><br />
+
+                            @Html.Label("StartDate", "Starting Date")
+                            <input type="date" name="StartDate" />
+                            @Html.ValidationMessage("StartDate", "", new { @class = "text-danger" })
+                            <br /><br />
+
+                            @Html.Label("EndDate", "End Date")
+                            <input type="date" name="EndDate" />
+                            @Html.ValidationMessage("EndDate", "", new { @class = "text-danger" })
+                            <br />
+                            <br />
+
+                            <label>Select the responsible member:</label>
+
+                            @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.ListOfMembers, "Value", "Text"),
+                                    "Selecteaza membrul responsabil", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.UserId, "", new { @class = "text-danger" })
+                            <br />
+
+
+                            <button class="btn btn-success " type="submit">Adauga task</button>
+                        </div>
+                    </form>
+                    @*<div class="col-md-2"><img src="../../Content/images/p.png" style="margin-left: -38rem; margin-bottom: -1rem; margin-top:10rem;" alt="Table Showing" width="480" height="300"></div>*@
+                </div>
+
+
+
+                <br /><br /><br /><br /><br />
+            }
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    @if (ViewBag.afisareTaskuri == true || ViewBag.afisareButoane == true || ViewBag.esteAdmin == true)
+    {
+
+        <img src="../../Content/images/teamwork.jpg" style="margin-left: 32rem; margin-bottom: -1rem;" alt="Teamwork" width="500" height="220">
+        <h2 id="labelTasks">Tasks</h2>
+        foreach (var task in Model.Tasks)
+        {
+            <div class="panel col-sm-4">
+                <div class="panel-heading" style="background-color: #DADBDE;">@task.TaskTitle</div>
+
+                <div class="panel panel-footer">
+
+                    <a class="btn btn-success  btn btn-sm" href="/Tasks/Show/@task.TaskId">See details about this task</a>
+                    @if (ViewBag.afisareButoane == true || ViewBag.esteAdmin)
+                    {
+                        <a class="btn btn-info  btn btn-sm" href="/Tasks/Edit/@task.TaskId" style="margin-left:2rem;">Edit</a>
+
+                        <div style="display: inline-block;  color: red;">
+                            <form method="post" action="/Tasks/Delete/@task.TaskId">
+                                @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                <button class="btn btn-danger btn btn-sm" style="border: none; " type="submit">Delete</button>
+                            </form>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+        }
+
+    }
+    <br /><br /><br /><br />
+</div>
+
+<br /><br /><br />
+
+
+

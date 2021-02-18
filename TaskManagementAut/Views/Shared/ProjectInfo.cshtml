@@ -1,0 +1,16 @@
+﻿
+<div class="panel">
+    <div class="panel-heading font-sizer-heading">@Model.ProjectTitle</div>
+    <div class="panel-body body-padding">
+        <strong>Description: </strong>@Model.ProjectDescription
+        <hr />
+        <span class="label label-info" id="pDate">@Model.ProjectDate</span>
+        <br />
+        <i class="glyphicon glyphicon-star"></i> <i>created by</i>
+        <strong> @Model.User.UserName </strong>
+        <br />
+        <i class="glyphicon glyphicon-sunglasses"></i> @Model.Team.TeamName
+
+    </div>
+</div>
+

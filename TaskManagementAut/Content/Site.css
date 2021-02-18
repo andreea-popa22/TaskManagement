@@ -1,0 +1,439 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Poppins&family=Ubuntu&display=swap');
+body {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    background-color: #63a8db;
+    border: none;
+    box-shadow: 0 6px 12px #dadada;
+}
+
+.navbar a {
+    color: white;
+}
+
+    .navbar a:hover {
+        color: #848c91;
+    }
+
+#pDate {
+    margin-left: 80%;
+    margin-top: 10%;
+    background-color: #59D7D7;
+}
+.containerTasks{
+    background-color: lightblue;
+    border-radius: 1rem;
+    padding: 6rem;
+
+}
+#titluAdaugaTask{
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+.containerTasksAfisare {
+    margin-top: 7rem;
+    margin-left: 0;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 40vw;
+    position: fixed;
+    margin-bottom: 2rem;
+}
+
+.body-padding {
+    padding: 3rem;
+}
+
+#titluTop {
+    color: red;
+}
+
+
+.nav-font, .navbar-brand, navbar-right {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.start-container {
+    background-color: #367BB0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+
+    justify-content: center;
+}
+#intro {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 9rem;
+    margin-left: 10rem;
+}
+
+#explained{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.font-sizer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin-top: 10rem;
+    margin-left: 80%;
+}
+
+#registerLink {
+    background-color: white;
+    color: #63a8db;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+}
+
+#loginLink:hover {
+    background-color: #63a8db;
+    text-decoration: underline;
+    color: white;
+}
+
+
+#registerLink:hover{
+    opacity: 1;
+}
+.col-height
+{
+    margin-top: -10rem;
+}
+
+.my-footer {
+    background-color: #1A4D74;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 4rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 20%;
+}
+
+.titleTop {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    margin-top: 4rem;
+}
+.font-type {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -20rem;
+}
+#loginForm {
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 50rem;
+    margin-left: -3rem;
+    margin-top: 0;
+    box-shadow: 5px 10px 10px #B8E0FF;
+    border: 2px solid #B8E0FF;
+}
+
+#socialLoginForm {
+    box-shadow: 5px 7px 10px #B8E0FF;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 31rem;
+    margin-left: -6rem;
+    border: 2px solid #B8E0FF;
+}
+
+#loginDiv{
+    max-height: 50rem;
+}
+.my-footer-container {
+    height: 2rem;
+}
+.registerDiv {
+    margin-top: 10rem;
+    font-family: 'Poppins', sans-serif;
+    max-height: 40rem;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 75%;
+    margin-left: -4%;
+}
+
+.font-poppins:hover {
+    box-shadow: 5px 10px 10px #C4C5C5;
+    
+}
+.font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: -3rem;
+}
+.panel > .panel-heading {
+    background-color: #BAD0E1;
+}
+
+.font-sizer-heading{
+    font-size: 2rem;
+    
+}
+
+
+.radius-div {
+    
+    border: 1px solid lightgrey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-bottom: 3rem;
+}
+
+#labelMembers{
+    margin-left: 3%;
+}
+
+.myglyph{
+    margin-left: 5%;
+}
+
+.my-user {
+    margin-left: 2rem;
+    margin-top: -1.5rem;
+}
+
+.delete-button{
+    margin-left: 18rem;
+    margin-top: -2rem;
+}
+
+.addMember{
+    margin-left: 2rem;
+}
+
+#labelTasks{
+    font-size: 2.4rem;
+    margin-left: 47%;
+    margin-bottom: 6rem;
+    margin-top: -2rem;
+}
+
+.font-div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+
+}
+
+.task-adding {
+    margin-top: 3rem;
+}
+.heading-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+
+}
+
+.edit-div {
+    padding: 3rem;
+    position: absolute;
+    width: 60%;
+    margin-left: 12rem;
+    margin-bottom: 19rem;
+    
+    background-color: #F1F5FF;
+
+}
+.cont-new{
+   height: 61rem;
+}
+.task-div {
+    bottom: 6rem;
+    top: 3rem;
+    height: 68rem;
+    width: 80rem;
+    position: absolute;
+}
+
+.basic-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.team-div {
+    background-color: #F1F5FF;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-top:0.8rem;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 40rem;
+}
+.comm-panel {
+    width: 50rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem;
+}
+.cont-comm{
+    margin-left: 0;
+}
+.comm-heading{
+    background-color: lightgray;
+}
+.contact-cont {
+
+    border-radius: 3rem;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10rem;
+    padding: 2rem;
+    padding-left: 4rem;
+    font-size: 2rem;
+
+}
+
+.whole-cont {
+    background-color: #DEF1FB;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.comms-heading {
+    padding: 2rem;
+    margin-top:-1rem;
+    background-color: #e1eff7;
+}
+.info-comm{
+    padding: 2rem;
+    margin-bottom: 5rem;
+    
+}
+.comms-body {
+    min-height: 12rem;
+    border: 1px solid #D3CDCD;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cont-divs {
+    width: 40rem;
+    margin-top: 3rem;
+    font-size: 12px;
+    min-height: 20rem;
+    max-height: 39rem;
+    overflow-y: scroll;
+}
+.big.b {
+    min-height: 60rem;
+    max-height: 210rem;
+    margin-bottom: 20rem;
+}
+.team-cont{
+    font-size: 10px;
+    
+}
+.panel-team{
+    margin-left: 13rem;
+    margin-top:10rem;
+    width: 40rem;
+    position: absolute;
+}
+
+.show-team{
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: -3.6rem;
+}
+
+.team-cont-big {
+    position: absolute;
+    margin-top: 3rem;
+    max-height: 180rem;
+    min-height: 80rem;
+    font-size: 14px;
+   padding-bottom: 6rem;
+}
+.div-tasks {
+    overflow-y: hidden;
+}
+
+.team-panel{
+    width: 37rem;
+    margin-top: -2rem;
+    
+    position: fixed;
+}
+.add-mem-btn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.col-tasks{
+    min-height: 50rem;
+    max-height: 120rem;
+    margin-bottom: 7%; 
+}
+
+.users-cont{
+    min-height: 60rem;
+    max-height: 160rem;
+    margin-bottom: 5rem;
+    padding-bottom: 8rem;
+}
+
+.body-color {
+    background-color: #E8F7FE;
+    padding: 2rem;
+}
+.container-show-task{
+    overflow-y: hidden;
+}

@@ -1,0 +1,37 @@
+﻿@{
+ ViewBag.Title = "Users";
+}
+
+<h3>@ViewBag.message</h3>
+<img src="../../Content/images/users.gif" style="margin-left: 35%; margin-bottom: -8rem; margin-top: 2rem;" alt="People talking" width="350" height="180">
+<div class="container users-cont">
+
+    <ol class="breadcrumb">
+        <li><h3>@ViewBag.Title</h3></li>
+    </ol>
+    <div class="row">
+        @foreach (var user in ViewBag.UsersList)
+         {
+            <div class="col-md-4">
+                <div class="panel-heading">Username: @user.UserName</div>
+                <div class="panel-body">
+                    <i class="glyphicon glyphicon-envelope"></i> Email utilizator: <span class="label label-default">@user.Email</span>
+                    <br /><br />
+
+                </div>
+                <div class="panel-footer">
+
+                    <a class="btn btn-sm btn-success" href="/Users/Show/@user.Id" style="margin-left: 3.5rem;"> See details</a>
+                    <a class="btn btn-sm btn-info" href="/Users/Edit/@user.Id"> Edit user</a>
+                    <div style="display: inline-block; ">
+                        <form method="post" action="/Users/Delete/@user.Id">
+                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                            <button class="btn btn-sm btn-danger" style="border: none;" type="submit">Delete User</button>
+                        </form>
+                    </div>
+                </div>
+                <br /><br />
+            </div>
+         }
+    </div>
+</div>

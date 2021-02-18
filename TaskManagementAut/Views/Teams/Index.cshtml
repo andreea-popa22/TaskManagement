@@ -1,0 +1,33 @@
+﻿
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+
+<h3>@ViewBag.message</h3>
+<h2 class="basic-heading" style="margin-left: 3rem;">Teams</h2>
+<div class="container" style="margin-left: 0rem; min-height: 70rem; max-height: 120rem;">
+    <div class="row">
+        <div class="col-md-6 team-cont">
+            @foreach (var team in ViewBag.Teams)
+            {
+                <div class="panel team-div">
+                    <p>@team.TeamName</p>
+                    <a class="btn btn-primary  btn btn-sm show-team" href="/Teams/Show/@team.TeamId">See details</a>
+
+                </div>
+            }
+        </div>
+        <div class="col-md-6">
+            <br />
+            <img src="../../Content/images/team.jpg" style="margin-left: -2rem; margin-bottom: -1rem; position: fixed;" alt="People high five" width="480" height="380">
+        </div>
+
+    </div>
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-success" href="/Teams/New">Add a team</a>
+    }
+</div>
+

@@ -1,0 +1,31 @@
+﻿@model TaskManagement.Models.Team
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                
+                <div class="panel panel-default panel-team">
+                    <div class="panel-heading">Add a new team</div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm(actionName: "New", controllerName: "Teams"))
+                        {
+                            @Html.Label("TeamName", "Team Name")
+                            <br />
+                            @Html.TextBox("TeamName", null, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.TeamName, "", new { @class = "text-danger" })
+                            <br />
+                            <button class="btn btn-sm btn-success" type="submit">Add team</button>
+                            <a class="btn btn-primary" href="/Teams" style="font-size: 12px;">Back to Teams</a>
+                        }
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <img src="../../Content/images/people.svg" style="margin-left: -2rem; margin-bottom: -1rem; margin-top: -6rem; position: fixed;" alt="People in a team" width="580" height="480">
+            </div>
+        </div>
+
+    </div>
+

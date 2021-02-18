@@ -1,0 +1,432 @@
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll.config
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.pdb
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe.config
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.rsp
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe.config
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.rsp
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.AppContext.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Console.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe.config
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.rsp
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\EntityFramework.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Owin.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\WebGrease.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.pdb
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\EntityFramework.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csprojAssemblyReference.cache
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CoreCompileInputs.cache
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CopyComplete
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.dll
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.pdb
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial.resources
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.GenerateResource.cache
+C:\Users\Alina\source\repos\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial1.resources
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll.config
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.pdb
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe.config
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.rsp
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe.config
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.rsp
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.AppContext.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Console.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe.config
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.rsp
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Owin.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\WebGrease.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.pdb
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csprojAssemblyReference.cache
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial.resources
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial1.resources
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.GenerateResource.cache
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CoreCompileInputs.cache
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CopyComplete
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.dll
+C:\Users\Andreea\Downloads\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.AppContext.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Console.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\WebGrease.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csprojAssemblyReference.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial.resources
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial1.resources
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.GenerateResource.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CoreCompileInputs.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CopyComplete
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\TaskManagementAut.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csc.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\csi.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.AppContext.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Console.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\vbc.rsp
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Owin.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\WebGrease.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Helpers.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Mvc.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Optimization.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.Razor.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Newtonsoft.Json.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Antlr3.Runtime.pdb
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\EntityFramework.SqlServer.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csprojAssemblyReference.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial.resources
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.Migrations.Initial1.resources
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.GenerateResource.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CoreCompileInputs.cache
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.csproj.CopyComplete
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.dll
+C:\Users\Andreea\Desktop\FACULTATE NOU\SEM1\DAW\TaskManagementAutGTAAAAA\TaskManagementAut\TaskManagementAut\obj\Debug\TaskManagementAut.pdb

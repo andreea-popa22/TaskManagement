@@ -1,0 +1,106 @@
+﻿
+@{
+    /**/
+
+    ViewBag.Title = "Index";
+}
+
+<h3>@ViewBag.message</h3>
+<div class="container">
+    <h2 class="font-ubuntu" style="margin-top:-1rem;">PROJECTS</h2>
+    <form class="card card-sm" method="GET">
+        <div class="card-body row no-gutters align-items-center">
+            <div class="col-auto">
+                <i class="fas fa-search h4 text-body"></i>
+            </div>
+            
+            <div class="col">
+                <input class="form-control form-control-lg form-controlborderless" type="text" name="search"
+                                   value="@ViewBag.SearchString"
+                                   placeholder="Search topics or keywords">
+                <button class="btn btn-success" type="submit" style="margin-top:-5.5rem;margin-left:30rem;">
+                      Search
+                </button>
+            </div>
+                       
+            <br /><br />
+     
+        </div>
+    </form>
+
+
+    <div class="row">
+        <div class="col-md-10">
+
+            @foreach (TaskManagement.Models.Project project in ViewBag.Projects)
+            {
+                <div class="panel panel-default font-poppins">
+                    @Html.Partial("ProjectInfo", project)
+
+                    <div class="panel-footer radius-footer">
+                        <a class="btn btn-info" href="/Projects/Show/@project.ProjectId">See details about this project</a>
+                    </div>
+                </div>
+
+                <br />
+            }
+
+            <a class="btn btn-success" href="/Projects/New" style="margin-left: -3.8rem;">Add a new Project</a>
+            <br />
+        </div>
+        <div class="col-md-2">
+            <img id="loginImg" style="margin-top: -16rem; margin-left: -24rem; position: fixed;" src="../Content/images/colleagues.jpg" alt="People on a ledder" width="400" height="400">
+        </div>
+
+    </div>
+    <div style="margin-left: -4rem;">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    @if (ViewBag.search != "")
+                    {
+                        <a href="/Projects/Index?page=1&search=@ViewBag.SearchString"
+                           aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="/Projects/Index?page=1" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    }
+                </li>
+                @for (int i = 1; i <= ViewBag.lastPage; i++)
+                {
+                    if (ViewBag.search != "")
+                    {
+                        <li>
+                            <a href="/Projects/Index?page=@i&search=@ViewBag.SearchString">@(i)</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li><a href="/Projects/Index?page=@i">@(i)</a></li>
+                    }
+                }
+                <li>
+                    @if (ViewBag.search != "")
+                    {
+                        <a href="/Projects/Index?page=@(ViewBag.lastPage)&search=@ViewBag.SearchString" arialabel="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="/Projects/Index?page=@(ViewBag.lastPage)" arialabel="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    }
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <br /><br /><br /><br />
+</div>

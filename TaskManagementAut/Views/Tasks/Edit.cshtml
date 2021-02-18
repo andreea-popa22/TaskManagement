@@ -1,0 +1,79 @@
+﻿@model TaskManagement.Models.Task
+
+<h2 class="heading-font" style="margin-left: 14rem; margin-bottom: 4rem;">Edit task</h2>
+<div class="container" >
+    <div class="row task-div" style="margin-top: 7rem;">
+        <div class="col-md-8">
+            <div class="panel panel-default radius-div edit-div ">
+                @using (Html.BeginForm(actionName: "Edit", controllerName: "Tasks"))
+                {
+                    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+                    if (ViewBag.esteAdmin == true || ViewBag.esteOrganizator == true)
+                    {
+
+                        @Html.HiddenFor(m => m.TaskId)
+                        @Html.HiddenFor(m => m.ProjectId)
+
+                        @Html.Label("TaskTitle", "Title")
+                        <br />
+                        @Html.Editor("TaskTitle")
+                        @Html.ValidationMessageFor(m => m.TaskTitle, "", new { @class = "text-danger" })
+                        <br /><br />
+
+                        @Html.Label("TaskDescription", "Description")
+                        <br />
+                        @Html.Editor("TaskDescription")
+                        @Html.ValidationMessageFor(m => m.TaskDescription, "", new { @class = "text-danger" })
+                        <br /><br />
+
+
+                        <label>Starting Date</label>
+                        @Html.EditorFor(m => m.StartDate, new { type = "date" })<br />
+                        @Html.ValidationMessageFor(m => m.StartDate, "", new { @class = "text-danger" })
+                        <br />
+
+                        <label>Ending Date</label>
+                        @Html.EditorFor(m => m.EndDate, new { type = "date" })<br />
+                        @Html.ValidationMessageFor(m => m.EndDate, "", new { @class = "text-danger" })
+                        <br />
+                        <br />
+
+                        <label>Select the responsible member:</label>
+
+                        @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.ListOfMembers, "Value", "Text"),
+                                "Selecteaza membru", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.UserId, "", new { @class = "text-danger" })
+                        <br />
+                    }
+                    if (ViewBag.schimbaStatus == true && ViewBag.esteAdmin == false)
+                    {
+                        @Html.HiddenFor(m => m.TaskId)
+                        @Html.HiddenFor(m => m.ProjectId)
+                        @Html.HiddenFor(m => m.TaskTitle)
+                        @Html.HiddenFor(m => m.TaskDescription)
+                        @Html.HiddenFor(m => m.StartDate)
+                        @Html.HiddenFor(m => m.EndDate)
+                        @Html.HiddenFor(m => m.UserId)
+                        <p></p>
+                    }
+
+                    <label>Status</label><br />
+                    <select name="Status">
+                        <option value="notStarted">Not Started</option>
+                        <option value="inProgress">In Progress</option>
+                        <option value="completed">Completed</option>
+                    </select>
+                    @Html.ValidationMessage("Status", "", new { @class = "text-danger" })
+                    <br /><br />
+
+                    <button class="btn btn-sm btn-success" type="submit">Edit task</button>
+                }
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+            <img src="../../Content/images/time.jpg" style="position: absolute; margin-left: 65rem; margin-top: 7rem;" alt="Calendar" width="360" height="300">
+            <a class="btn btn-primary" href="/Tasks/Show/@Model.TaskId" style="margin-top: 38rem; margin-left: 77rem;">Back to Task</a>
+        </div>
+    </div>
+</div>
