@@ -2,9 +2,6 @@
 
 A platform that enables individuals to be more productive, while working in a team. Made for The Faculty of Mathematics and Informatics, University of Bucharest, in a team of 2 students.
 
-## Conceptual Diagram
-![](Diagram/DiagramaFinala.PNG)
-
 ## Features:
 - 🟣 user authentification and roles: unregistered user, organizer, member, admin.
 - 🟣 unregistered users can only see the first page and the authentication and registration forms
